@@ -1,0 +1,25 @@
+
+body{
+background-image: url(./bg-pattern.svg);
+display: flex;
+
+align-items: center;
+justify-content: center;
+}
+.new{
+  background-image: url(./valluvar.svg);
+
+
+}
+.chat-widget {
+  display: flex;
+
+align-items: center;
+justify-content: center;
+}
+
+.chat-container {
+  height: 100%;
+}
+
+
