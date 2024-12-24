@@ -21,5 +21,17 @@ justify-content: center;
 .chat-container {
   height: 100%;
 }
+@keyframes scroll-text {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 
-
+.scroll-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-text 15s linear infinite;
+}

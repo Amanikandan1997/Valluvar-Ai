@@ -83,6 +83,20 @@
     "eng_exp": "Those shall long proposer who abide in the faultless way of Him who has destroyed the five desires of the senses"
 },
 {
+    "number": 7,
+    "sect_tam": "அறத்துப்பால்",
+    "chapgrp_tam": "பாயிரவியல்",
+    "chap_tam": "கடவுள் வாழ்த்து",
+    "line1": "தனக்குவமை இல்லாதான் தாள்சேர்ந்தார்க் கல்லால்",
+    "line2": "மனக்கவலை மாற்றல் அரிது..",
+    "tam_exp": "தனக்கு இணையில்லாத கடவுளின் திருவடிகளைச் சேர்ந்தவர்க்கே அன்றி, மற்றவர்களுக்கு மனக்கவலையைப் போக்குவது கடினம்",
+    "sect_eng": "Virtue",
+    "chapgrp_eng": "Prologue",
+    "chap_eng": "The Praise of God",
+    "eng": "Unless His foot, 'to Whom none can compare,' men gain, 'Tis hard for mind to find relief from anxious pain",
+    "eng_exp": "unless one seeks refuge in the divine presence—symbolized by His foot, referring to a supreme being beyond comparison—human beings will struggle to find peace of mind or relief from the burdens of worry and anxiety. It conveys the idea that true inner tranquility is achieved through devotion and spiritual connection"
+},
+{
     "number": 8,
     "sect_tam": "அறத்துப்பால்",
     "chapgrp_tam": "பாயிரவியல்",
@@ -18090,20 +18104,7 @@
     "eng_exp": "O my soul! you would not first seem sulky and then enjoy (him); who then would in future consult you about such things?"
 },
 
-{
-    "number": 1299,
-    "sect_tam": "காமத்துப்பால்",
-    "chapgrp_tam": "கற்பியல்",
-    "chap_tam": "நெஞ்சொடு புலத்தல்",
-    "line1": "துன்பத்திற்கு யாரே துணையாவார் தாமுடைய",
-    "line2": "நெஞ்சந் துணையல் வழி.",
-    "tam_exp": "துன்பம் வரும்போது அதனைத் தாங்குவதற்கு நெஞ்சமே துணையாக இல்லாவிட்டால் பிறகு யார் துணையாக இருப்பார்?",
-    "sect_eng": "Love",
-    "chapgrp_eng": "The Post-marital love",
-    "chap_eng": "Desire for Reunion",
-    "eng": "Who support a man in grief If lover's heart denies relief?",
-    "eng_exp": "Who would help me out of one's distress, when one's own soul refuses help to one?"
-},
+
 {
     "number": 1297,
     "sect_tam": "காமத்துப்பால்",
@@ -18120,18 +18121,18 @@
 },
 
 {
-    "number": 1302,
+    "number": 1299,
     "sect_tam": "காமத்துப்பால்",
     "chapgrp_tam": "கற்பியல்",
-    "chap_tam": "புலவி",
-    "line1": "உப்பமைந் தற்றால் புலவி அதுசிறிது",
-    "line2": "மிக்கற்றால் நீள விடல்.",
-    "tam_exp": "ஊடலுக்கும் கூடலுக்கும் இடையில் உள்ள காலம் உணவில் இடும் உப்பு போல் ஓரளவுடன் இருக்க வேண்டும் அந்தக் கால அளவு நீடித்தால் உணவில் உப்பு மிகுதியானதற்கு ஒப்பாக ஆகிவிடும்",
+    "chap_tam": "நெஞ்சொடு புலத்தல்",
+    "line1": "துன்பத்திற்கு யாரே துணையாவார் தாமுடைய",
+    "line2": "நெஞ்சந் துணையல் வழி.",
+    "tam_exp": "துன்பம் வரும்போது அதனைத் தாங்குவதற்கு நெஞ்சமே துணையாக இல்லாவிட்டால் பிறகு யார் துணையாக இருப்பார்?",
     "sect_eng": "Love",
     "chapgrp_eng": "The Post-marital love",
-    "chap_eng": "Expostulation with Oneself",
-    "eng": "Sulking is the salt of love; but Too much of it spoils the taste Wife Addresses Husband",
-    "eng_exp": "A little dislike is like salt in proportion; to prolong it a little is like salt a little too much"
+    "chap_eng": "Desire for Reunion",
+    "eng": "Who support a man in grief If lover's heart denies relief?",
+    "eng_exp": "Who would help me out of one's distress, when one's own soul refuses help to one?"
 },
 {
     "number": 1300,
@@ -18148,6 +18149,34 @@
     "eng_exp": "It is hardly possible for strangers to behave like relations, when one's own soul acts like a stranger"
 },
 {
+    "number": 1301,
+    "sect_tam": "காமத்துப்பால்",
+    "chapgrp_tam": "கற்பியல்",
+    "chap_tam": "நெஞ்சொடு புலத்தல்",
+    "line1": "புல்லா திராஅப் புலத்தை அவர்உறும்",
+    "line2": "அல்லல்நோய் காண்கம் சிறிது.",
+    "tam_exp": "நாம் ஊடும்போது அவர் அடையும் காதல் வேதனையை நாமும் கொஞ்சம் பார்க்கலாம்; அதனால் அவரைத் தழுவாதே; ஊடல் செய்.",
+    "sect_eng": "Love",
+    "chapgrp_eng": "The Post-marital love",
+    "chap_eng": "Desire for Reunion",
+    "eng": "Be still reserved, decline his profferred love; A little while his sore distress we 'll prove",
+    "eng_exp": "Be still reserved, decline his profferred love; A little while his sore distress we 'll prove"
+},
+{
+    "number": 1302,
+    "sect_tam": "காமத்துப்பால்",
+    "chapgrp_tam": "கற்பியல்",
+    "chap_tam": "புலவி",
+    "line1": "உப்பமைந் தற்றால் புலவி அதுசிறிது",
+    "line2": "மிக்கற்றால் நீள விடல்.",
+    "tam_exp": "ஊடலுக்கும் கூடலுக்கும் இடையில் உள்ள காலம் உணவில் இடும் உப்பு போல் ஓரளவுடன் இருக்க வேண்டும் அந்தக் கால அளவு நீடித்தால் உணவில் உப்பு மிகுதியானதற்கு ஒப்பாக ஆகிவிடும்",
+    "sect_eng": "Love",
+    "chapgrp_eng": "The Post-marital love",
+    "chap_eng": "Expostulation with Oneself",
+    "eng": "Sulking is the salt of love; but Too much of it spoils the taste Wife Addresses Husband",
+    "eng_exp": "A little dislike is like salt in proportion; to prolong it a little is like salt a little too much"
+},
+{
     "number": 1303,
     "sect_tam": "காமத்துப்பால்",
     "chapgrp_tam": "கற்பியல்",
@@ -18160,6 +18189,19 @@
     "chap_eng": "Expostulation with Oneself",
     "eng": "To leave the sulker unembraced Is to grieve the one sorely grieved",
     "eng_exp": "For men not to embrace those who have feigned dislike is like torturing those already in agony"
+},
+{
+    "number": 1304,
+    "sect_tam": "காமத்துப்பால்",
+    "chapgrp_tam": "கற்பியல்",
+    "chap_tam": "புலவி",
+    "line1": "ஊடி யவரை உணராமை வாடிய",
+    "line2": "வள்ளி முதலரிந் தற்று.",
+    "tam_exp": "தன்னுடன் ஊடல் கொண்ட மனைவிக்கு அவள் ஊடலைத் தெளிவுபடுத்தி, அவளுடன் கூடாமல் போவது, முன்பே நீர் இல்லாமல் வாடிய கொடியை அடியோடு அறுத்தது போலாம்.",
+    "chapgrp_eng": "The Post-marital love",
+    "chap_eng": "Expostulation with Oneself",
+    "eng": "To use no kind conciliating art when lover grieves, Is cutting out the root of tender winding plant that droops",
+    "eng_exp": "To use no kind conciliating art when lover grieves, Is cutting out the root of tender winding plant that droops"
 },
 {
     "number": 1305,
@@ -18177,6 +18219,35 @@
 },
 
 
+
+{
+    "number": 1306,
+    "sect_tam": "காமத்துப்பால்",
+    "chapgrp_tam": "கற்பியல்",
+    "chap_tam": "புலவி",
+    "line1": "துனியும் புலவியும் இல்லாயின் காமம்",
+    "line2": "கனியும் கருக்காயும் அற்று.",
+    "tam_exp": "பெரும்பிணக்கும், சிறுபிணக்கும் ஏற்பட்டு இன்பம் தரும் காதல் வாழ்க்கை அமையாவிட்டால் அது முற்றிப் பழுத்து அழுகிய பழம் போலவும், முற்றாத இளம் பிஞ்சைப் போலவும் பயனற்றதாகவே இருக்கும்",
+    "sect_eng": "Love",
+    "chapgrp_eng": "The Post-marital love",
+    "chap_eng": "Expostulation with Oneself",
+    "eng": "Love devoid of frowns and pets Misses its ripe and unripe fruits",
+    "eng_exp": "Sexual pleasure, without prolonged and short-lived dislike, is like too ripe, and unripe fruit"
+},
+{
+    "number": 1307,
+    "sect_tam": "காமத்துப்பால்",
+    "chapgrp_tam": "கற்பியல்",
+    "chap_tam": "புலவி",
+    "line1": "ஊடலின் உண்டாங்கோர் துன்பம் புணர்வது",
+    "line2": "நீடுவ தன்றுகொல் என்று.",
+    "tam_exp": "இனிக் கலவி நீளுமோ நீளாதோ என்று எண்ணுவதால், இன்பத்திற்கு இன்றியமையாத ஊடலிலும் ஒரு துன்பம் உண்டு.",
+    "sect_eng": "Love",
+    "chapgrp_eng": "The Post-marital love",
+    "chap_eng": "Expostulation with Oneself",
+    "eng": "A lovers' quarrel brings its pain, when mind afraid Asks doubtful, 'Will reunion sweet be long delayed?'",
+    "eng_exp": "A lovers' quarrel brings its pain, when mind afraid Asks doubtful, 'Will reunion sweet be long delayed?'t"
+},
 {
     "number": 1308,
     "sect_tam": "காமத்துப்பால்",
@@ -18192,19 +18263,34 @@
     "eng_exp": "What avails sorrow when I am without a wife who can understand the cause of my sorrow?"
 },
 {
-    "number": 1306,
+    "number": 1309,
     "sect_tam": "காமத்துப்பால்",
     "chapgrp_tam": "கற்பியல்",
     "chap_tam": "புலவி",
-    "line1": "துனியும் புலவியும் இல்லாயின் காமம்",
-    "line2": "கனியும் கருக்காயும் அற்று.",
-    "tam_exp": "பெரும்பிணக்கும், சிறுபிணக்கும் ஏற்பட்டு இன்பம் தரும் காதல் வாழ்க்கை அமையாவிட்டால் அது முற்றிப் பழுத்து அழுகிய பழம் போலவும், முற்றாத இளம் பிஞ்சைப் போலவும் பயனற்றதாகவே இருக்கும்",
+    "line1": "நீரும் நிழலது இனிதே புலவியும்",
+    "line2": "வீழுநர் கண்ணே இனிது.",
+    "tam_exp": "நிழலுக்கு அருகில் உள்ள நீர்தான் குளிர்ந்து இனிமையாக இருக்கும்; அதுபோல அன்புள்ளவர்களிடம் கொள்ளும் ஊடல்தான் இன்பமானதாக இருக்கும்",
     "sect_eng": "Love",
     "chapgrp_eng": "The Post-marital love",
     "chap_eng": "Expostulation with Oneself",
-    "eng": "Love devoid of frowns and pets Misses its ripe and unripe fruits",
-    "eng_exp": "Sexual pleasure, without prolonged and short-lived dislike, is like too ripe, and unripe fruit"
+    "eng": "Water delights in a shady grove And sulking in souls of psychic love",
+    "eng_exp": "Like water in the shade, dislike is delicious only in those who love"
 },
+{
+    "number": 1310,
+    "sect_tam": "காமத்துப்பால்",
+    "chapgrp_tam": "கற்பியல்",
+    "chap_tam": "புலவி",
+    "line1": "ஊடல் உணங்க விடுவாரோடு என்நெஞ்சம்",
+    "line2": "கூடுவேம் என்பது அவா.",
+    "tam_exp": "ஊடி, என் நெஞ்சை வாட விட்டிருப்பவனோடும் கூடுவோம் என்று என் நெஞ்சம் முயல்வதற்குக் காரணம் ஆசையே.",
+    "sect_eng": "Love",
+    "chapgrp_eng": "The Post-marital love",
+    "chap_eng": "Expostulation with Oneself",
+    "eng": "Of her who leaves me thus in variance languishing, To think within my heart with love is fond desire",
+    "eng_exp": "Of her who leaves me thus in variance languishing, To think within my heart with love is fond desire"
+},
+
 
 {
     "number": 1311,
@@ -18221,20 +18307,33 @@
     "eng_exp": "You are given to prostitution; all those who are born as womankind enjoy you with their eyes in an ordinary way I will not embrace you"
 },
 {
-    "number": 1309,
+    "number": 1312,
     "sect_tam": "காமத்துப்பால்",
     "chapgrp_tam": "கற்பியல்",
-    "chap_tam": "புலவி",
-    "line1": "நீரும் நிழலது இனிதே புலவியும்",
-    "line2": "வீழுநர் கண்ணே இனிது.",
-    "tam_exp": "நிழலுக்கு அருகில் உள்ள நீர்தான் குளிர்ந்து இனிமையாக இருக்கும்; அதுபோல அன்புள்ளவர்களிடம் கொள்ளும் ஊடல்தான் இன்பமானதாக இருக்கும்",
+    "chap_tam": "புலவி நுணுக்கம்",
+    "line1": "ஊடி இருந்தேமாத் தும்மினார் யாம்தம்மை",
+    "line2": "நீடுவாழ் கென்பாக் கறிந்து.",
+    "tam_exp": "ஊடல் கொண்டிருந்தபோது அவர் தும்மினார்; ஊடலை விடுத்து அவரை ``நீடுவாழ்க'' என வாழ்த்துவேன் என்று நினைத்து",
     "sect_eng": "Love",
     "chapgrp_eng": "The Post-marital love",
-    "chap_eng": "Expostulation with Oneself",
-    "eng": "Water delights in a shady grove And sulking in souls of psychic love",
-    "eng_exp": "Like water in the shade, dislike is delicious only in those who love"
+    "chap_eng": "Pouting",
+    "eng": "He sneezed while we went on sulking Expecting me to say \\\"live long\\\"",
+    "eng_exp": "When I continued to be sulky he sneezed and thought I would (then) wish him a long life"
 },
-
+{
+    "number": 1313,
+    "sect_tam": "காமத்துப்பால்",
+    "chapgrp_tam": "கற்பியல்",
+    "chap_tam": "புலவி நுணுக்கம்",
+    "line1": "கோட்டுப்பூச் சூடினும் காயும் ஒருத்தியைக்",
+    "line2": "காட்டிய சூடினீர் என்று.",
+    "tam_exp": "ஒரு மாற்றம் கருதி, ஒருமுறை, மரத்திலே மலர்ந்த பூவை மாலையாக்கிச் சூடினேன். அதற்கு அவள், நீர் விரும்பும் எவளுக்கோ அடையாளம் காட்டிச் சூடினீர் என்று சினந்து நின்றாள்.",
+    "sect_eng": "Love",
+    "chapgrp_eng": "The Post-marital love",
+    "chap_eng": "Pouting",
+    "eng": "I wreathed with flowers one day my brow, The angry tempest lowers; She cries, 'Pray, for what woman now Do you put on your flowers?'",
+    "eng_exp": "WI wreathed with flowers one day my brow, The angry tempest lowers; She cries, 'Pray, for what woman now Do you put on your flowers?'"
+},
 {
     "number": 1314,
     "sect_tam": "காமத்துப்பால்",
@@ -18250,20 +18349,6 @@
     "eng_exp": "When I said I loved her more than any other woman, she said \"more than others, yes, more than others,\" and remained sulky"
 },
 {
-    "number": 1312,
-    "sect_tam": "காமத்துப்பால்",
-    "chapgrp_tam": "கற்பியல்",
-    "chap_tam": "புலவி நுணுக்கம்",
-    "line1": "ஊடி இருந்தேமாத் தும்மினார் யாம்தம்மை",
-    "line2": "நீடுவாழ் கென்பாக் கறிந்து.",
-    "tam_exp": "ஊடல் கொண்டிருந்தபோது அவர் தும்மினார்; ஊடலை விடுத்து அவரை ``நீடுவாழ்க'' என வாழ்த்துவேன் என்று நினைத்து",
-    "sect_eng": "Love",
-    "chapgrp_eng": "The Post-marital love",
-    "chap_eng": "Pouting",
-    "eng": "He sneezed while we went on sulking Expecting me to say \\\"live long\\\"",
-    "eng_exp": "When I continued to be sulky he sneezed and thought I would (then) wish him a long life"
-},
-{
     "number": 1315,
     "sect_tam": "காமத்துப்பால்",
     "chapgrp_tam": "கற்பியல்",
@@ -18276,6 +18361,20 @@
     "chap_eng": "Pouting",
     "eng": "\\\"In this life we won't part\\\" I told Her eyes at once with tears were filled",
     "eng_exp": "When I said I would never part from her in this life her eyes were filled with tears"
+},
+{
+    "number": 1316,
+    "sect_tam": "காமத்துப்பால்",
+    "chapgrp_tam": "கற்பியல்",
+    "chap_tam": "புலவி நுணுக்கம்",
+    "line1": "உள்ளினேன் என்றேன்மற் றென்மறந்தீர் என்றென்னைப்",
+    "line2": "புல்லாள் புலத்தக் கனள்.",
+    "tam_exp": "``எப்போதும் உன்னைத்தான் எண்ணினேன் என்றேன். சில சமயம் மறந்து ஒரு சமயம் நினைத்ததாக எண்ணி அப்படியானால் என்னை இடையில் மறந்திருக்கிறீர் என்று சொல்லித் தழுவத் தொடங்கியவள், விட்டுவிட்டு ஊடத் தொடங்கினாள்.",
+    "sect_eng": "Love",
+    "chapgrp_eng": "The Post-marital love",
+    "chap_eng": "Pouting",
+    "eng": "'Each day I called to mind your charms,' 'O, then, you had forgot,' She cried, and then her opened arms, Forthwith embraced me not",
+    "eng_exp": "'Each day I called to mind your charms,' 'O, then, you had forgot,' She cried, and then her opened arms, Forthwith embraced me not"
 },
 {
     "number": 1317,
@@ -18307,6 +18406,20 @@
     "eng_exp": "When I suppressed my sneezing, she wept saying, \"I suppose you (did so) to hide from me your own people's remembrance of you\""
 },
 {
+    "number": 1319,
+    "sect_tam": "காமத்துப்பால்",
+    "chapgrp_tam": "கற்பியல்",
+    "chap_tam": "புலவி நுணுக்கம்",
+    "line1": "தன்னை உணர்த்தினும் காயும் பிறர்க்கும்நீர்",
+    "line2": "இந்நீரர் ஆகுதிர் என்று.",
+    "tam_exp": "ஊடியிருந்தபோது அவளை ஊடல் உணர்த்தி மகிழ்வித்தாலும். நீர் மற்ற மகளிர்க்கும் இத்தன்மையானவராக ஆவீர் என்று சொல்லி சினம் கொள்வாள்.",
+    "sect_eng": "Love",
+    "chapgrp_eng": "The Post-marital love",
+    "chap_eng": "Pouting",
+    "eng": "I then began to soothe and coax, To calm her jealous mind; 'I see', quoth she, 'to other folks How you are wondrous kind",
+    "eng_exp": "I then began to soothe and coax, To calm her jealous mind; 'I see', quoth she, 'to other folks How you are wondrous kind"
+},
+{
     "number": 1320,
     "sect_tam": "காமத்துப்பால்",
     "chapgrp_tam": "கற்பியல்",
@@ -18323,20 +18436,6 @@
 
 
 {
-    "number": 1323,
-    "sect_tam": "காமத்துப்பால்",
-    "chapgrp_tam": "கற்பியல்",
-    "chap_tam": "ஊடலுவகை",
-    "line1": "புலத்தலின் புத்தேள்நாடு உண்டோ நிலத்தொடு",
-    "line2": "நீரியைந் தன்னார் அகத்து.",
-    "tam_exp": "நிலத்தோடு நீர் கலந்தது போல அன்புடன் கூடியிருக்கும் காதலரிடத்தில் ஊடல் கொள்வதை விடப் புதிய உலகம் வேறொன்று இருக்க முடியுமா?",
-    "sect_eng": "Love",
-    "chapgrp_eng": "The Post-marital love",
-    "chap_eng": "Feigned Anger",
-    "eng": "Is there a heaven like sulk beneath Of hearts that join like water and earth?",
-    "eng_exp": "Is there a celestial land that can please like the feigned dislike of those whose union resembles that of earth and water?"
-},
-{
     "number": 1321,
     "sect_tam": "காமத்துப்பால்",
     "chapgrp_tam": "கற்பியல்",
@@ -18351,19 +18450,36 @@
     "eng_exp": "Although my husband is free from defects, the way in which he embraces me is such as to make me feign dislike"
 },
 
+
 {
-    "number": 1326,
+    "number": 1322,
     "sect_tam": "காமத்துப்பால்",
     "chapgrp_tam": "கற்பியல்",
     "chap_tam": "ஊடலுவகை",
-    "line1": "உணலினும் உண்டது அறல்இனிது காமம்",
-    "line2": "புணர்தலின் ஊடல் இனிது.",
-    "tam_exp": "உணவு அருந்துவதைவிட, அருந்திய உணவு செரிப்பதிலே ஒரு சுகம் அதைப்போல் உடலுறவைவிட ஊடல் கொள்வதிலேயே காதலர்க்கு ஒரு சுகம்",
+    "line1": "ஊடலின் தோன்றும் சிறுதுனி நல்லளி",
+    "line2": "வாடினும் பாடு பெறும்",
+    "tam_exp": "நிலத்தோடு நீர் கலந்தாற்போன்ற ஒற்றுமையை உடைய என்னவரோடு ஊடிப் பெறும் இன்பத்தைப் போலத் தேவர்கள் நாட்டு இன்பம் இருக்குமோ?ஊடல் காரணமாக என்னிடம் தோன்றும் சிறு துன்பத்தினால் அவர் என்மீது காட்டும் பேரன்பு வாடினாலும் பெருமை பெறும்.",
+    
     "sect_eng": "Love",
     "chapgrp_eng": "The Post-marital love",
     "chap_eng": "Feigned Anger",
-    "eng": "Sweeter than meal is digestion And sulk in love than union",
-    "eng_exp": "To digest what has been eaten is more delightful than to eat more; likewise love is more delightful in dislike than intercourse"
+    "eng": "My 'anger feigned' gives but a little pain; And when affection droops, it makes it bloom again",
+    "eng_exp": "My 'anger feigned' gives but a little pain; And when affection droops, it makes it bloom again"
+},
+
+{
+    "number": 1323,
+    "sect_tam": "காமத்துப்பால்",
+    "chapgrp_tam": "கற்பியல்",
+    "chap_tam": "ஊடலுவகை",
+    "line1": "புலத்தலின் புத்தேள்நாடு உண்டோ நிலத்தொடு",
+    "line2": "நீரியைந் தன்னார் அகத்து.",
+    "tam_exp": "நிலத்தோடு நீர் கலந்தது போல அன்புடன் கூடியிருக்கும் காதலரிடத்தில் ஊடல் கொள்வதை விடப் புதிய உலகம் வேறொன்று இருக்க முடியுமா?",
+    "sect_eng": "Love",
+    "chapgrp_eng": "The Post-marital love",
+    "chap_eng": "Feigned Anger",
+    "eng": "Is there a heaven like sulk beneath Of hearts that join like water and earth?",
+    "eng_exp": "Is there a celestial land that can please like the feigned dislike of those whose union resembles that of earth and water?"
 },
 {
     "number": 1324,
@@ -18382,18 +18498,32 @@
 },
 
 {
-    "number": 1329,
+    "number": 1325,
     "sect_tam": "காமத்துப்பால்",
     "chapgrp_tam": "கற்பியல்",
     "chap_tam": "ஊடலுவகை",
-    "line1": "ஊடுக மன்னோ ஒளியிழை யாமிரப்ப",
-    "line2": "நீடுக மன்னோ இரா.",
-    "tam_exp": "ஒளி முகத்தழகி ஊடல் புரிவாளாக; அந்த ஊடலைத் தீர்க்கும் பொருட்டு நான் அவளிடம் இரந்து நிற்கும் இன்பத்தைப் பெறுவதற்கும் இராப்பொழுது இன்னும் நீடிப்பதாக",
+    "line1": "தவறிலர் ஆயினும் தாம்வீழ்வார் மென்றோள்",
+    "line2": "அகறலின் ஆங்கொன் றுடைத்து.",
+    "tam_exp": "ஆண்கள் மீது தவறு இல்லை என்றாலும் தவறு செய்தவராகவே நின்று, மனைவியால் ஊடப்பட்டு தாம் விரும்பும் மனைவியின் மெல்லிய தோள்களைக் கூடப் பெறாதபோது, அந்த ஊடலிலும் ஓர் இன்பம் இருக்கிறது.",
     "sect_eng": "Love",
     "chapgrp_eng": "The Post-marital love",
     "chap_eng": "Feigned Anger",
-    "eng": "Sulk on O belle of shining jewels! Prolong O night! our delight swells!",
-    "eng_exp": "May the bright-jewelled one feign dislike, and may the night be prolonged for me to implore her!"
+    "eng": "Though free from fault, from loved one's tender arms To be estranged a while hath its own special charms",
+    "eng_exp": "Though free from fault, from loved one's tender arms To be estranged a while hath its own special charms"
+},
+{
+    "number": 1326,
+    "sect_tam": "காமத்துப்பால்",
+    "chapgrp_tam": "கற்பியல்",
+    "chap_tam": "ஊடலுவகை",
+    "line1": "உணலினும் உண்டது அறல்இனிது காமம்",
+    "line2": "புணர்தலின் ஊடல் இனிது.",
+    "tam_exp": "உணவு அருந்துவதைவிட, அருந்திய உணவு செரிப்பதிலே ஒரு சுகம் அதைப்போல் உடலுறவைவிட ஊடல் கொள்வதிலேயே காதலர்க்கு ஒரு சுகம்",
+    "sect_eng": "Love",
+    "chapgrp_eng": "The Post-marital love",
+    "chap_eng": "Feigned Anger",
+    "eng": "Sweeter than meal is digestion And sulk in love than union",
+    "eng_exp": "To digest what has been eaten is more delightful than to eat more; likewise love is more delightful in dislike than intercourse"
 },
 {
     "number": 1327,
@@ -18408,6 +18538,34 @@
     "chap_eng": "Feigned Anger",
     "eng": "The yielder wins in lover's pout Reunited joy brings it out",
     "eng_exp": "Those are conquerors whose dislike has been defeated and that is proved by the love (which"
+},
+{
+    "number": 1328,
+    "sect_tam": "காமத்துப்பால்",
+    "chapgrp_tam": "கற்பியல்",
+    "chap_tam": "ஊடலுவகை",
+    "line1": "ஊடிப் பெறுகுவம் கொல்லோ நுதல்வெயர்ப்பக்",
+    "line2": "கூடலில் தோன்றிய உப்பு.",
+    "tam_exp": "நெற்றி வியர்க்கும்படி கலவியில் தோன்றும் சுகத்தை இன்னுமொரு முறை இவளுடன் ஊடிப் பெறுவோமா?",
+    "sect_eng": "Love",
+    "chapgrp_eng": "The Post-marital love",
+    "chap_eng": "Feigned Anger",
+    "eng": "And shall we ever more the sweetness know of that embrace With dewy brow; to which 'feigned anger' lent its piquant grace",
+    "eng_exp": "And shall we ever more the sweetness know of that embrace With dewy brow; to which 'feigned anger' lent its piquant grace"
+},
+{
+    "number": 1329,
+    "sect_tam": "காமத்துப்பால்",
+    "chapgrp_tam": "கற்பியல்",
+    "chap_tam": "ஊடலுவகை",
+    "line1": "ஊடுக மன்னோ ஒளியிழை யாமிரப்ப",
+    "line2": "நீடுக மன்னோ இரா.",
+    "tam_exp": "ஒளி முகத்தழகி ஊடல் புரிவாளாக; அந்த ஊடலைத் தீர்க்கும் பொருட்டு நான் அவளிடம் இரந்து நிற்கும் இன்பத்தைப் பெறுவதற்கும் இராப்பொழுது இன்னும் நீடிப்பதாக",
+    "sect_eng": "Love",
+    "chapgrp_eng": "The Post-marital love",
+    "chap_eng": "Feigned Anger",
+    "eng": "Sulk on O belle of shining jewels! Prolong O night! our delight swells!",
+    "eng_exp": "May the bright-jewelled one feign dislike, and may the night be prolonged for me to implore her!"
 },
 
 {

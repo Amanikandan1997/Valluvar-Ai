@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import ChatBot from "react-simple-chatbot";
 import { ThemeProvider } from "styled-components";
 import jsonData from "./thirukkuralData.json"; // Import JSON file directly
-import './App.css'
-import T from './valluvar.svg'
+import { Box, Typography } from "@mui/material";
 
 const Chat = () => {
   const steps = [
@@ -15,7 +14,6 @@ const Chat = () => {
     {
       id: "2",
       options: [
-      
         { value: "tamil", label: "  தொடங்கு", trigger: "3" },
       ],
     },
@@ -28,7 +26,7 @@ const Chat = () => {
       id: "4",
       options: jsonData.map((item) => ({
         value: item.number,
-        label: `திருக்குறள் ${item.number}`,
+        label: `திருக்குறள் ${item.number}  ${item.sect_tam}`,
         trigger: `6-${item.number}`,
       })),
     },
@@ -62,7 +60,6 @@ const Chat = () => {
             color: '#480ca8',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
           }}>
-            {/* Tamil Section */}
             <div style={{ marginBottom: '20px' }}>
               <div style={{ fontSize: '13px', lineHeight: '1.6' }}>
                 <strong>பொருள்:</strong> {item.sect_tam}, <br />
@@ -77,8 +74,7 @@ const Chat = () => {
                 {item.line2}
               </div>
             </div>
-            
-            {/* Tamil Explanation */}
+
             <div style={{
               padding: '10px',
               backgroundColor: '#ccff33',
@@ -88,8 +84,7 @@ const Chat = () => {
             }}>
               <strong>விளக்கம்:</strong> {item.tam_exp}
             </div>
-            
-            {/* English Section */}
+
             <div style={{ marginBottom: '20px' }}>
               <p>English Section</p>
               <div style={{ fontSize: '13px', lineHeight: '1.6' }}>
@@ -102,8 +97,7 @@ const Chat = () => {
                 {item.eng}
               </div>
             </div>
-            
-            {/* English Explanation */}
+
             <div style={{
               padding: '10px',
               backgroundColor: '#ccff33',
@@ -112,15 +106,6 @@ const Chat = () => {
             }}>
               <strong>Explanation:</strong> {item.eng_exp}
             </div>
-          </div>
-        ),
-        trigger: "2",
-      },
-      {
-        id: `7-${item.number}`,
-        component: (
-          <div style={{ display: 'flex', flexDirection: 'column-reverse', backgroundColor: "#ccff33" }}>
-            <div style={{ fontSize: '12px' }}><strong>விளக்கம்:</strong> {item.tam_exp}</div>
           </div>
         ),
         trigger: "2",
@@ -140,21 +125,91 @@ const Chat = () => {
     userFontColor: "#4a4a4a",
   };
 
+  // Function to trigger Tamil speech
+  const speak = (text) => {
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'ta-IN';  // Tamil language
+    utterance.rate = 1; // Speed of speech
+    utterance.pitch = 1; // Pitch of speech
+    window.speechSynthesis.speak(utterance);
+  };
+
+  // Speak messages when steps are triggered
+  useEffect(() => {
+    const chatbot = document.querySelector('.chat-container');
+    chatbot.addEventListener('message', (event) => {
+      const messageText = event.detail.message;
+      speak(messageText); // Speak the message when it's added to the DOM
+    });
+  }, []);
+
   return (
     <ThemeProvider theme={theme}>
-      <div className="chat-widget">
+      <div style={{ textAlign: "center" }}>
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+        padding:"25px"
+          }}
+        >
+        <button className="btn">
+  <div className="wrapper">
+    <p className="text">        <img src="https://img.freepik.com/premium-vector/tamil-poet-thiruvalluvar-writing-thirukkural_1108340-154.jpg" style={{ height: "90px" }} /></p>
 
+    <div className="flower flower1">
+      <div className="petal one"></div>
+      <div className="petal two"></div>
+      <div className="petal three"></div>
+      <div className="petal four"></div>
+    </div>
+    <div className="flower flower2">
+      <div className="petal one"></div>
+      <div className="petal two"></div>
+      <div className="petal three"></div>
+      <div className="petal four"></div>
+    </div>
+    <div className="flower flower3">
+      <div className="petal one"></div>
+      <div className="petal two"></div>
+      <div className="petal three"></div>
+      <div className="petal four"></div>
+    </div>
+    <div className="flower flower4">
+      <div className="petal one"></div>
+      <div className="petal two"></div>
+      <div className="petal three"></div>
+      <div className="petal four"></div>
+    </div>
+    <div className="flower flower5">
+      <div className="petal one"></div>
+      <div className="petal two"></div>
+      <div className="petal three"></div>
+      <div className="petal four"></div>
+    </div>
+    <div className="flower flower6">
+      <div className="petal one"></div>
+      <div className="petal two"></div>
+      <div className="petal three"></div>
+      <div className="petal four"></div>
+    </div>
+  </div>
+</button>
+        </div>
+
+
+      </div>
+
+      <div className="chat-widget">
         <ChatBot
           steps={steps}
-          headerTitle="வள்ளுவர் AI (Developed By Manikandan UKI)"
-          width="700px"
-          placeholder=" Developed By Manikandan UKI @ 2025 "
-          // floating
-          // floatingIcon="https://img.freepik.com/premium-vector/tamil-poet-thiruvalluvar-writing-thirukkural_1108340-154.jpg"
+          headerTitle="வள்ளுவர் AI (Developed by Manikandan U K I)"
+          width="600px"
+          placeholder="Developed By Manikandan UKI @ 2025"
           botAvatar="https://img.freepik.com/premium-vector/tamil-poet-thiruvalluvar-writing-thirukkural_1108340-154.jpg"
           className="chat-container"
         />
-        
       </div>
     </ThemeProvider>
   );

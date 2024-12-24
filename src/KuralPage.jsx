@@ -1,95 +1,176 @@
 import React, { useState } from 'react';
-import './App.css'; // Add your custom CSS styles
-import thirukkuralData from './thirukkuralData.json'; // Import JSON data
-
+import { Container, Box, Typography, TextField, Select, MenuItem, Card, CardContent, InputLabel, FormControl } from '@mui/material';
+import thirukkuralData from './thirukkuralData.json';
+import "./App.css"
+import "./Navbar.css"
 const KuralPage = () => {
     const [searchTerm, setSearchTerm] = useState('');
-    const [language, setLanguage] = useState('tamil'); // State to track selected language
+    const [language, setLanguage] = useState('tamil');
 
-    // Filtered data based on the search term
     const filteredData = thirukkuralData.filter((item) => {
         const fullText = `${item.sect_tam} ${item.chapgrp_tam} ${item.chap_tam} ${item.line1} ${item.line2} ${item.tam_exp} ${item.sect_eng} ${item.chapgrp_eng} ${item.chap_eng} ${item.eng} ${item.eng_exp}`;
         return fullText.toLowerCase().includes(searchTerm.toLowerCase());
     });
 
-    // Search by Kural number
     const searchByNumber = thirukkuralData.filter((item) => item.number === parseInt(searchTerm));
 
-    // Get content based on the selected language
     const getContent = (kural) => {
         switch (language) {
             case 'tamil':
                 return (
                     <>
-                        <p className="kural-line">{kural.line1}</p>
-                        <p className="kural-line">{kural.line2}</p>
-                        <p className="kural-explanation"><strong>விளக்கம்:</strong> {kural.tam_exp}</p>
+                        <Typography variant="body1" fontWeight="bold">{kural.line1}</Typography>
+                        <Typography variant="body1" fontWeight="bold">{kural.line2}</Typography>
+                        <Typography variant="body2" color="textSecondary"><strong>விளக்கம்:</strong> {kural.tam_exp}</Typography>
                     </>
                 );
             case 'english':
                 return (
                     <>
-                        <p className="kural-line">{kural.eng}</p>
-                        <p className="kural-explanation"><strong>Explanation:</strong> {kural.eng_exp}</p>
+                        <Typography variant="body1" fontWeight="bold">{kural.eng}</Typography>
+                        <Typography variant="body2" color="textSecondary"><strong>Explanation:</strong> {kural.eng_exp}</Typography>
                     </>
                 );
             default:
-                return <p>Translation not available</p>;
+                return <Typography variant="body1">Translation not available</Typography>;
         }
     };
 
-    // Determine which data to show
     const dataToShow = searchByNumber.length > 0 ? searchByNumber : filteredData;
 
     return (
-        <div className="app-container">
-            <header className="header">
-                <h1>Thirukkural Explorer</h1>
-                <input
-                    type="text"
-                    placeholder="Search Thirukkural by number or text..."
+        <Container maxWidth="md">
+            {/* Scrolling Text */}
+            {/* <Box
+                sx={{
+                    overflow: 'hidden',
+                    whiteSpace: 'nowrap',
+                 
+                    py: 1,
+                    mb: 2,
+                }}
+            >
+                <Typography
+                    variant="h6"
+                    component="div"
+                    sx={{
+                        display: 'inline-block',
+                        animation: 'scroll-text 10s linear infinite',
+                        fontWeight: 'bold',
+                        color: '#3f51b5',
+                    }}
+                >
+                   - கன்னியாகுமரி  ஜனவரி 1  2025 அன்று திருவள்ளுவர் சிலையின் 25வது ஆண்டு விழா - Kanyakumari 25th Anniversary of Tiruvalluvar Idol on January 1 2025
+                </Typography>
+            </Box> */}
+
+            {/* Top Section with Search */}
+            <Box sx={{ textAlign: 'center', my: 4 }}>
+            
+            <div
+      style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+    
+      }}
+    >
+      <button className="btn">
+  <div className="wrapper">
+    <h1 className="text">Thirukkural Explorer</h1>
+
+    <div className="flower flower1">
+      <div className="petal one"></div>
+      <div className="petal two"></div>
+      <div className="petal three"></div>
+      <div className="petal four"></div>
+    </div>
+    <div className="flower flower2">
+      <div className="petal one"></div>
+      <div className="petal two"></div>
+      <div className="petal three"></div>
+      <div className="petal four"></div>
+    </div>
+    <div className="flower flower3">
+      <div className="petal one"></div>
+      <div className="petal two"></div>
+      <div className="petal three"></div>
+      <div className="petal four"></div>
+    </div>
+    <div className="flower flower4">
+      <div className="petal one"></div>
+      <div className="petal two"></div>
+      <div className="petal three"></div>
+      <div className="petal four"></div>
+    </div>
+
+    <div className="flower flower5">
+      <div className="petal one"></div>
+      <div className="petal two"></div>
+      <div className="petal three"></div>
+      <div className="petal four"></div>
+    </div>
+    <div className="flower flower6">
+      <div className="petal one"></div>
+      <div className="petal two"></div>
+      <div className="petal three"></div>
+      <div className="petal four"></div>
+    </div>
+  </div>
+
+</button>
+        </div><br/>    
+
+              
+                <TextField
+                    label="Search Thirukkural by number or text..."
+                    variant="outlined"
+                    fullWidth
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
-                    className="search-bar"
+                    sx={{ mb: 2 }}
                 />
-                <div className="language-selector">
-                    <label htmlFor="language">Select Language:</label>
-                    <select
+            
+                <FormControl sx={{ minWidth: 150 }}>
+                    <InputLabel id="language-label">Select Language</InputLabel>
+                    <Select
+                        labelId="language-label"
                         id="language"
                         value={language}
                         onChange={(e) => setLanguage(e.target.value)}
+                        label="Select Language"
                     >
-                        <option value="tamil">Tamil</option>
-                        <option value="english">English</option>
-                    </select>
-                </div>
-            </header>
+                        <MenuItem value="tamil">Tamil</MenuItem>
+                        <MenuItem value="english">English</MenuItem>
+                    </Select>
+                </FormControl>
+            </Box>
 
-            <main>
+            {/* Thirukkural List */}
+            <Box >
                 {dataToShow.length > 0 ? (
-                    <div className="kural-list">
-                        {dataToShow.map((kural) => (
-                            <div className="card" key={kural.number}>
-                                <div className="card__info">
-                                    <h2 className="card__title">குறள் {kural.number}</h2>
-                                    <p className="card__category"><strong>{kural.sect_tam}</strong></p>
-                                    <p className="card__subcategory"><strong>{kural.chapgrp_tam}</strong></p>
-                                    <p className="card__chapter"><strong>{kural.chap_tam}</strong></p>
-                                    <div className="card__content">{getContent(kural)}</div>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
+                    dataToShow.map((kural) => (
+                        <Card key={kural.number} sx={{ mb: 3 }}>
+                            <CardContent>
+                                <Typography variant="h5" color="primary" fontWeight="bold">குறள் {kural.number}</Typography>
+                                <Typography variant="subtitle1" color="textSecondary">{kural.sect_tam}</Typography>
+                                <Typography variant="subtitle2" color="textSecondary">{kural.chapgrp_tam}</Typography>
+                                <Typography variant="subtitle2" color="textSecondary">{kural.chap_tam}</Typography>
+                                <Box sx={{ mt: 2 }}>{getContent(kural)}</Box>
+                            </CardContent>
+                        </Card>
+                    ))
                 ) : (
-                    <p>No results found for "{searchTerm}"</p>
+                    <Typography variant="body1" color="error" sx={{ textAlign: 'center' }}>
+                        No results found for "{searchTerm}"
+                    </Typography>
                 )}
-            </main>
+            </Box>
 
-            <footer>
-                <p>Thirukkural Explorer © 2024</p>
-            </footer>
-        </div>
+          
+        </Container>
     );
 };
 
 export default KuralPage;
+
