@@ -204,8 +204,8 @@ const Chat = () => {
       <div className="chat-widget">
         <ChatBot
           steps={steps}
-          headerTitle="வள்ளுவர் AI (Developed by Manikandan U K I)"
-          width="600px"
+          headerTitle="வள்ளுவர்AI"
+          width="580px"
           placeholder="Developed By Manikandan UKI @ 2025"
           botAvatar="https://img.freepik.com/premium-vector/tamil-poet-thiruvalluvar-writing-thirukkural_1108340-154.jpg"
           className="chat-container"

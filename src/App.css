@@ -13,7 +13,8 @@ justify-content: center;
 }
 .chat-widget {
   display: flex;
-
+margin-left: 24px;
+margin-right: 22px;
 align-items: center;
 justify-content: center;
 }
