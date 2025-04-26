@@ -22,7 +22,7 @@ function App() {
             margin: '10px 0',
           }}
         >
-          25th Anniversary Celebration of Thiruvalluvar Statue for Kanniyakumari
+          
         </a>
         <a
           href="https://amanikandan1997.github.io/ReactJs_Portfolio/"
